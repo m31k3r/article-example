@@ -1,0 +1,146 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: #222;
+  font-family: Georgia, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0 0 1.8rem;
+  padding: 1.8rem 0 0;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+h3 {
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+h4 {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: .9em;
+}
+
+p {
+  margin: 1.8rem 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  border: none;
+  margin: 0;
+  padding: .9rem;
+}
+
+.header-img {
+  background-image: url("./img/sheep1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.mw {
+  margin: auto;
+  max-width: 72rem;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  padding: 1.8rem;
+}
+.img-inner-container {
+  padding: 1.8rem 0;
+  margin-left: -1.8rem;
+  margin-right: -1.8rem;
+}
+
+.img-text {
+  text-align: right;
+  padding: 0 1.8rem;
+  color: #888;
+  font-size: .7em;
+  height: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.9rem;
+    margin-left: -.9rem;
+    align-items: center;
+}
+
+.col-4,
+.col-8 {
+    padding-right: .9rem;
+    padding-left: .9rem;
+}
+.col-4 {
+    flex: 1 0 33.33333333%;
+    max-width: 33.33333333%;
+}
+.col-8 {
+    flex: 1 0 66.66666667%;
+    max-width: 66.66666667%;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
